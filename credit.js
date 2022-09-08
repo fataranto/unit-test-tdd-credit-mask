@@ -1,5 +1,5 @@
 function maskify(cc) {
-        return cc.length > 4 ? cc.replace(/.(?=.{4})/g, "#") : cc;
+        return cc.replace(/.(?=.{4})/g, "#");
 }
 
 //console.log(maskify("4556364607935616"));
